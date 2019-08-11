@@ -292,7 +292,7 @@ nav {
   padding-top: 10px;
   margin-top: 10px;
 }
-.skill-heading-first-half {
+.skill-heading-first-half,.about-me-first-half {
   width:1%;
   /*background-color: #A8A8A8;*/
   background-color: black;
@@ -311,5 +311,20 @@ nav {
   font-size: 1vw;
 }
 .float-left {
-    float: left;
+  float: left;
+}
+.about-me-second-half {
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-right: 1%;
+  padding-bottom: 5px;
+  font-size: 1vw;
+  color:black;
+}
+.about-me-text {
+  text-align: justify;
+  text-justify: inter-word;
 }
