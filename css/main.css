@@ -49,6 +49,7 @@ body {
   background-color: #333;
   /*height: 100%; */
   /*min-height: 100%;*/
+  padding-top: 30px;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -160,7 +161,6 @@ body {
     margin:auto;
 }
 .bottom-arrow-outter-center {
-    position: fixed;
     bottom: 70px;
     width: 100%;
 }
@@ -184,7 +184,6 @@ body {
 
 .bottom-arrow-container a {
     position: absolute;
-    bottom: 20px;
     left: 50%;
     z-index: 2;
     display: inline-block;
@@ -259,4 +258,31 @@ body {
 
 .overflow-hidden {
     overflow: hidden;
+}
+.skills-header-container {
+  font-size: 3vw;
+  text-align: left;
+  margin-left: 40px;
+  background-color: rgb(158, 158, 158);
+  opacity: .9;
+}
+
+.skills-header-container > span {
+  margin-left: 20px;
+}
+
+.navbar {
+  margin-bottom : -2px !important; 
+}
+
+nav {
+  height: auto !important;
+}
+
+.skill-image-container {
+  width:100%;
+}
+.skill-image {
+  width: 50%;
+  height: 110px;
 }

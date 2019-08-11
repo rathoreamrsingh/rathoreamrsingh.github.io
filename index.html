@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
   <head>
     <meta charset="utf-8">
@@ -14,25 +14,29 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" src="js/main.js">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   </head>
 
   <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container-fluid overflow-hidden">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">Amar Singh</a>
-            </div>
-            <div class="float-right">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                  </ul>
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid overflow-hidden">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Amar Singh</a>
+        </div>
+        <div class="float-right">
+            <ul class="nav navbar-nav">
+                <!-- <li class="active" id="home-menu"><a href="#home" onclick="menuSelect(event, 'home')">Home</a></li> -->
+                <li id="about-menu"><a href="#about" onclick="menuSelect(event, 'about')">About</a></li>
+                <li id="skills-menu"><a href="#skills" onclick="menuSelect(event, 'skills')">Skills</a></li>
+                <li id="projects-menu"><a href="#projects" onclick="menuSelect(event, 'projects')">Projects</a></li>
+                <li id="experience-menu"><a href="#experience" onclick="menuSelect(event, 'experience')">Experience</a></li>
+                <li id="achievements-menu"><a href="#achievements" onclick="menuSelect(event, 'achievements')">Achievements</a></li>
+              </ul>
+        </div>
+      </div>
+    </nav>
     <section id="home">
         <div class="site-wrapper sublime-background">
             <div class="site-wrapper-inner">
@@ -46,7 +50,7 @@
       
               <div class="container bottom-arrow-outter-center">
                   <div id="bottom-arrow-section-id" class="bottom-arrow-container">
-                      <a href="#test"><span></span><span></span><span></span></a>
+                      <a href="#about"><span></span><span></span><span></span></a>
                   </div>
               </div>
             </div>
@@ -54,23 +58,197 @@
     </section>
     <section id="about">
         <div id="" class="site-wrapper background-1">
-          <center>Nothing</center>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="skills-header-container">
+                  <span>About</span>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
     <section id="skills">
         <div id="" class="site-wrapper background-1">
-          <center>Nothing</center>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="skills-header-container">
+                <span>Skills</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/java_logo_640.png"></div>
+              <div><span>Java</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/spring_boot.png"></div>
+              <div><span>Spring Boot</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/node.png"></div>
+              <div><span>Node JS</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/python.png"></div>
+              <div><span>Python</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/HTML_Logo.png"></div>
+              <div><span>HTML</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/css-512.png"></div>
+              <div><span>CSS</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/js-logo.png"></div>
+              <div><span>JS</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/JQuery_logo-512.png"></div>
+              <div><span>jQuery</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/angular.png"></div>
+              <div><span>Angular</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/Bootstrap-Logo.png"></div>
+              <div><span>Bootstrap</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/maven.png"></div>
+              <div><span>Maven</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/apache_ant.png"></div>
+              <div><span>Apache ANT</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/mysql.png"></div>
+              <div><span>MySql</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/maria_db.png"></div>
+              <div><span>Maria DB</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/Oracle_DB.png"></div>
+              <div><span>Oracle DB</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/postgres.png"></div>
+              <div><span>Postgres</span></div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/git.png"></div>
+              <div><span>GIT</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/svn.png"></div>
+              <div><span>Tortoise SVN</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/perforce.svg"></div>
+              <div><span>Perforce</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/sonar_qube.svg"></div>
+              <div><span>SonarQube</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/fortify-logo.png"></div>
+              <div><span>Fortify</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/PCF.png"></div>
+              <div><span>PCF</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/aws.png"></div>
+              <div><span>AWS</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/rabbitmq.png"></div>
+              <div><span>RabbitMQ</span></div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-xs-6">
+              <div class="skill-image-container"><img class="skill-image" src="./img/kafka.png"></div>
+              <div><span>Apache Kafka</span></div>
+            </div>
+          </div>
         </div>
     </section>
     <section id="projects">
         <div id="" class="site-wrapper background-1">
-          <center>Nothing</center>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="skills-header-container">
+                  <span>Projects</span>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
     <section id="experience">
         <div id="" class="site-wrapper background-1">
-          <center>Nothing</center>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="skills-header-container">
+                  <span>Experience</span>
+                </div>
+              </div>
+            </div>
         </div>
+    </section>
+    <section id="achievements">
+      <div id="" class="site-wrapper background-1">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="skills-header-container">
+              <span>Achievements</span>
+            </div>
+          </div>
+        </div>
+        <div class="certificate-external row">
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+        </div>
+        <div class="certificate-external row">
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <img src="./img/test.png">
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -78,6 +256,8 @@
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
