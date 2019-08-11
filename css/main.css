@@ -285,3 +285,6 @@ nav {
 .skill-image {
   height: 110px;
 }
+.skills-wrapper > div > div > span {
+  color: rgb(0, 51, 0);
+}
