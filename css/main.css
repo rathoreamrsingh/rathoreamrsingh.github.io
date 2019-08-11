@@ -300,6 +300,9 @@ nav {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 1vw;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
 }
 .skill-heading-second-half{
   width:98%;
@@ -323,6 +326,10 @@ nav {
   padding-bottom: 5px;
   font-size: 1vw;
   color:black;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
+  padding-right:10px;
 }
 .about-me-text {
   text-align: justify;
@@ -338,6 +345,10 @@ nav {
   padding-bottom: 5px;
   font-size: 1vw;
   color:black;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
+  padding-right:10px;
 }
 .experience-details {
   text-align: justify;
@@ -361,6 +372,10 @@ nav {
   padding-bottom: 5px;
   font-size: 1vw;
   color:black;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
+  padding-right:10px;
 }
 .experience-details > div > span {
   font-weight: bolder;
@@ -381,4 +396,30 @@ nav {
   padding-bottom: 5px;
   font-size: 1vw;
   color:black;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
+}
+.project-detail-text-div {
+  font-size: 0.8vw;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right:10px;
+}
+
+.padding-bottom-10px {
+  padding-bottom: 10px;
+}
+
+.project-detail-first-half{
+  width:1%;
+  /*background-color: #A8A8A8;*/
+  background-color: black;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1vw;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 5px 5px 8px 2px #ccc;
 }
