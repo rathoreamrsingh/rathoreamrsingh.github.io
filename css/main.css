@@ -149,9 +149,10 @@ body {
 }
 
 .cover-heading {
-    font-family: 'Great Vibes', cursive;
-    font-size: 6vw;
-    font-style: normal;
+  font-family: 'sans-serif';
+  font-size: 6vw;
+  font-style: unset;
+  font-weight: 200 !important;
 }
 
 .circle-with-down-arrow a img {
@@ -477,4 +478,25 @@ nav {
   border-style: solid;
   border-color: #D3D3D3;
   background-color: lightgray;
+}
+
+.underconstruction-background {
+  background: url("./../img/underConstruction.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover-heading-blog {
+  font-family: 'sans-serif';
+  font-size: 3vw;
+  font-style: unset;
+  font-weight: 200 !important;
+}
+
+
+.div-height-30px {
+  height: 30px;
+  width: 100%;
 }
