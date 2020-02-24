@@ -49,6 +49,15 @@ body {
   background-color: #333;
   padding-top: 30px;
 }
+
+.site-wrapper-blog {
+  display: table;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: #333;
+  padding-top: 30px;
+}
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
@@ -478,6 +487,18 @@ nav {
   border-style: solid;
   border-color: #D3D3D3;
   background-color: lightgray;
+}
+.footer-blog{
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  background-color: lightgray;
+  position: fixed;
+  height: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 .underconstruction-background {
