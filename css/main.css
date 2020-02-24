@@ -500,3 +500,49 @@ nav {
   height: 30px;
   width: 100%;
 }
+
+.notepad-css-background { 
+  background-image: url(./../img/bg1.png);
+  background-repeat: repeat-xy;
+}
+
+.blog-heading-text {
+  margin-top: -30%;
+  color: white;
+  font-weight: bold;
+}
+
+.blog-anchor {
+  text-decoration: none;
+}
+
+.blog-container {
+  text-align:left;
+}
+
+.blog-inner-container {
+  /*background-color: #F5F2D0; OFF white*/ 
+  background-color: white;
+  margin-left: 70px;
+  padding:10px;
+  cursor: pointer;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 3px 3px #ccc;  
+}
+.blog-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-shadow: none;
+}
+
+.block-description {
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+  text-shadow: none;
+}

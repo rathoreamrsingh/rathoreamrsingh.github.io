@@ -28,26 +28,65 @@
         <div class="float-right">
             <ul class="nav navbar-nav">
                 <li id="about-menu"><a href="#tech" onclick="menuSelect(event, 'tech')">Tech</a></li>
-                <li id="skills-menu"><a href="#non-tech" onclick="menuSelect(event, 'non-tech')">Non-Tech</a></li>
-                <li id="experience-menu"><a href="#reviews" onclick="menuSelect(event, 'reviews')">Reviews</a></li>
+                <!-- <li id="skills-menu"><a href="#non-tech" onclick="menuSelect(event, 'non-tech')">Non-Tech</a></li>
+                <li id="experience-menu"><a href="#reviews" onclick="menuSelect(event, 'reviews')">Reviews</a></li> -->
                 <li id="experience-menu"><a href="index.html" onclick="menuSelect(event, 'porfolio')">Porfolio</a></li>
               </ul>
         </div>
       </div>
     </nav>
-    <section id="home">
-        <div class="site-wrapper underconstruction-background">
-            <div class="site-wrapper-inner">
-              <div class="container">
-                
-                <div class="inner cover">
-                  <h1 class="cover-heading-blog">Still under development will be online soon!!!</h1>
-                </div>
+    <section id="technical-blogs">
+      <div class="div-height-30px notepad-css-background"></div>
+      <div id="" class="site-wrapper background-1">
+        <div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="skills-header-container box-shadow">
+                <span>Technical Blogs</span>
               </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 blog-container">
+                <div class="blog-inner-container box-shadow" onclick="window.open('https://medium.com/@rathore.amrsingh/software-development-a-sad-story-cbb6db059b3e', '_blank');">
+                  <a class="blog-anchor" target="_blank" rel="noopener noreferrer" >
+                    <span class="blog-heading">Software Development a sad story</span><br/>
+                    <span class="block-description">Problems that most of the developers face while working on software projects in the form of story.</span>
+                  </a>
+                </div>
+              </div>
+              
         </div>
+      </div>
     </section>
 
+    <!-- The Footer Section -->
+    <section id="footer" class="footer">
+      <div class="footer-container container">
+        <div class="social-media-icon-container overflow-hidden">
+          <tbody class="footer-icon-table">
+            <tr>
+              <td>
+                  <a href="https://linkedin.com/in/amarsinghrathore/"> <img class = "footer-icon" src="img/LinkedIn-Icon-Footer.png"/></a>
+              </td>
+              <td>
+                  <a href="https://github.com/rathoreamrsingh"><img class = "footer-icon" src="img/githubtwittericon.png"/></a>
+              </td>
+              <td>
+                  <a href="https://www.facebook.com/rathore.amrsingh"><img class = "footer-icon" src="img/facebookfooter-icon.png"/></a>
+              </td>
+              <td>
+                  <a href="https://twitter.com/i_amarsingh"><img class = "footer-icon" src="img/twitterfootericon.png"/></a>
+              </td>
+            </tr>
+          </tbody>
+        </div>
+        <div class="copyright-container">
+          <span>Copyright © Amar Singh</span>
+        </div>
+      </div>
+    </section>
     <script src="js/jquery-3.4.1.js"></script>
     <script>
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
@@ -56,5 +95,10 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      window.onload = function() {
+        loadTechBlogs();
+      };
+    </script>
   </body>
 </html>
