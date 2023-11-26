@@ -124,11 +124,13 @@ body {
 }
 
 .talk-topic-container > div {
-    margin-right: 100px; /* Adjust the space between the divs */
+    margin-right: 60px;
+    margin-left: 60px;/* Adjust the space between the divs */
 }
 
 .talk-topic-container > div:last-child {
     margin-right: 0; /* Remove margin for the last div */
+    /*margin-left: 0;*/
 }
 .talk-topic-detail-container {
     display: flex;
@@ -199,8 +201,39 @@ body {
     justify-content: center;
 }
 
+@keyframes glow {
+    0% {
+        border-radius: 50%;
+        box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+    }
+    25% {
+        border-radius: 50%;
+        box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        border-radius: 50%;
+        box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.5);
+    }
+    75% {
+        border-radius: 50%;
+        box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        border-radius: 50%;
+        box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+    }
+}
+
 .glow-image-circle {
     border-radius: 50%;
     box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5); /* Adjust the shadow values as needed */
+}
+
+.glow-animation {
+    animation-duration: 1s; /* Default duration */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: glow;
+    animation-delay: 0.5s; /* Delay for the first image */
 }
 
