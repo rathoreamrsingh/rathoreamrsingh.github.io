@@ -126,8 +126,8 @@ body {
 }
 
 .talk-topic-container > div {
-    margin-right: 60px;
-    margin-left: 60px;/* Adjust the space between the divs */
+    margin-right: 3em;
+    margin-left: 3em;/* Adjust the space between the divs */
 }
 
 .talk-topic-container > div:last-child {
