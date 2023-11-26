@@ -149,11 +149,11 @@ body {
 }
 
 .sublime-background {
-    background-image: url("./../img/sublime-background.png");
+    background-image: url("../../img/sublime-background.png");
 }
 
 .background-1 {
-    background-image: url("./../img/bg1.png");
+    background-image: url("../../img/bg1.png");
     background-repeat: repeat-xy;
 }
 
@@ -502,7 +502,7 @@ nav {
 }
 
 .underconstruction-background {
-  background: url("./../img/underConstruction.png") no-repeat center center fixed; 
+  background: url("../../img/underConstruction.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -523,7 +523,7 @@ nav {
 }
 
 .notepad-css-background { 
-  background-image: url(./../img/bg1.png);
+  background-image: url(../../img/bg1.png);
   background-repeat: repeat-xy;
 }
 
