@@ -204,29 +204,29 @@ body {
 @keyframes glow {
     0% {
         border-radius: 50%;
-        box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.5);
     }
     25% {
         border-radius: 50%;
-        box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 40px 1px rgba(255, 255, 255, 0.5);
     }
     50% {
         border-radius: 50%;
-        box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 50px 1px rgba(255, 255, 255, 0.5);
     }
     75% {
         border-radius: 50%;
-        box-shadow: 0 0 40px 5px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 40px 1px rgba(255, 255, 255, 0.5);
     }
     100% {
         border-radius: 50%;
-        box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.5);
     }
 }
 
 .glow-image-circle {
     border-radius: 50%;
-    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5); /* Adjust the shadow values as needed */
+    box-shadow: 0 0 30px 2px rgba(255, 255, 255, 0.5); /* Adjust the shadow values as needed */
 }
 
 .glow-animation {
